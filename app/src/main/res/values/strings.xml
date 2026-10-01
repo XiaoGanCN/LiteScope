@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LiteScope</string>
+    <string name="tile_label">LiteScope scopes</string>
+
+    <string name="notif_channel_name">Capture service</string>
+    <string name="notif_channel_desc">Ongoing notification with the scope tool toggles.</string>
+    <string name="notif_title_idle">LiteScope is idle</string>
+    <string name="notif_title_capturing">Capturing %1$s</string>
+    <string name="notif_text_none">No tools enabled — tap a tool below</string>
+
+    <string name="notif_action_record">Record</string>
+    <string name="notif_action_stop_record">Stop recording</string>
+    <string name="notif_action_reset_layout">Reset layout</string>
+    <string name="notif_action_stop">Stop</string>
+    <string name="win_settings">Settings</string>
+    <string name="tool_spectrum">Spectrum</string>
+    <string name="tool_waterfall">Waterfall</string>
+    <string name="tool_waveform">Wave</string>
+    <string name="tool_vector">Vector</string>
+    <string name="tool_meters">Meters</string>
+
+
+    <string name="perm_audio">Microphone permission (required to capture playback)</string>
+    <string name="perm_overlay">Display over other apps</string>
+    <string name="perm_notif">Notifications</string>
+
+    <string name="sec_capture">Capture</string>
+    <string name="sec_spectrum">Spectrum scope</string>
+    <string name="sec_waterfall">Waterfall</string>
+    <string name="sec_waveform">Wave scope</string>
+    <string name="sec_vector">Vector scope</string>
+    <string name="sec_meters">Meters</string>
+    <string name="sec_windows">Overlay windows</string>
+    <string name="sec_appearance">Appearance</string>
+</resources>

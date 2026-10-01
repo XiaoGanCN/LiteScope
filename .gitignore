@@ -1,0 +1,17 @@
+.gradle/
+build/
+app/build/
+captures/
+.externalNativeBuild/
+.cxx/
+local.properties
+*.iml
+.idea/
+.DS_Store
+
+# local secrets and tool state
+.kotlin/
+token.txt
+*.jks
+*.keystore
+keystore.properties

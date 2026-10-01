@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Option chip. Inflated (not styled at runtime) so padding, minimum size and the background are
+     applied properly and every option stays comfortably tappable. -->
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Chip"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:minHeight="38dp"
+    android:minWidth="48dp"
+    android:gravity="center"
+    android:paddingStart="14dp"
+    android:paddingEnd="14dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginTop="4dp" />

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Chunky five bar scope mark: stays legible at the 15dp used in the notification info pill. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path android:fillColor="#FFFFFFFF" android:pathData="M2,10h3.2v4H2z" />
+    <path android:fillColor="#FFFFFFFF" android:pathData="M6.6,7h3.2v10H6.6z" />
+    <path android:fillColor="#FFFFFFFF" android:pathData="M11.2,4.5h3.2v15h-3.2z" />
+    <path android:fillColor="#FFFFFFFF" android:pathData="M15.8,7.5h3.2v9h-3.2z" />
+    <path android:fillColor="#FFFFFFFF" android:pathData="M20.4,10h3.2v4h-3.2z" />
+</vector>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg">#FF07090C</color>
+    <color name="panel">#FF12161C</color>
+    <color name="panel_alt">#FF1A2028</color>
+    <color name="stroke">#FF2A3340</color>
+    <color name="text">#FFE6EDF3</color>
+    <color name="text_dim">#FF93A1B1</color>
+    <color name="accent">#FF35D6C4</color>
+    <color name="warn">#FFFFB020</color>
+    <color name="bad">#FFFF5C5C</color>
+    <color name="good">#FF6BE675</color>
+    <color name="scope_bg">#F00A0D11</color>
+    <color name="scope_grid">#FF1E2A36</color>
+    <color name="scope_grid_major">#FF31465C</color>
+    <color name="ic_launcher_background">#FF0B0F14</color>
+</resources>

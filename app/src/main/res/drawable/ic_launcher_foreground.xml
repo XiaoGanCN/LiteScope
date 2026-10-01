@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  LiteScope mark: four rounded spectrum bars crossed by a waveform, inside the 72dp safe zone.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <path
+        android:strokeColor="#FF35D6C4"
+        android:strokeWidth="9"
+        android:strokeLineCap="round"
+        android:pathData="M36,62 L36,46" />
+    <path
+        android:strokeColor="#FF35D6C4"
+        android:strokeWidth="9"
+        android:strokeLineCap="round"
+        android:pathData="M48,70 L48,38" />
+    <path
+        android:strokeColor="#FFFFB020"
+        android:strokeWidth="9"
+        android:strokeLineCap="round"
+        android:pathData="M60,64 L60,44" />
+    <path
+        android:strokeColor="#FF35D6C4"
+        android:strokeWidth="9"
+        android:strokeLineCap="round"
+        android:pathData="M72,60 L72,48" />
+    <path
+        android:strokeColor="#E6FFFFFF"
+        android:strokeWidth="4.5"
+        android:strokeLineCap="round"
+        android:pathData="M30,54 C36,44 42,44 48,54 C54,64 60,64 66,54 C70,47 74,47 78,54" />
+</vector>

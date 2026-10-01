@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.LiteScope" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:colorAccent">@color/accent</item>
+        <item name="android:colorPrimary">@color/panel</item>
+        <item name="android:colorPrimaryDark">@color/bg</item>
+        <item name="android:windowBackground">@color/bg</item>
+        <item name="android:statusBarColor">@color/bg</item>
+        <item name="android:navigationBarColor">@color/bg</item>
+        <item name="android:textColorPrimary">@color/text</item>
+        <item name="android:textColorSecondary">@color/text_dim</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="SectionHeader">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingStart">4dp</item>
+        <item name="android:paddingEnd">4dp</item>
+        <item name="android:paddingTop">18dp</item>
+        <item name="android:paddingBottom">6dp</item>
+        <item name="android:textColor">@color/accent</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:letterSpacing">0.08</item>
+    </style>
+
+    <style name="RowTitle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="RowSummary">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/text_dim</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Chip">
+        <item name="android:minWidth">48dp</item>
+        <item name="android:minHeight">38dp</item>
+        <item name="android:paddingStart">14dp</item>
+        <item name="android:paddingEnd">14dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:background">@drawable/bg_chip</item>
+        <item name="android:textColor">@color/text_dim</item>
+    </style>
+
+
+
+    <style name="ToolTitle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingStart">8dp</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textColor">@color/text_dim</item>
+    </style>
+
+    <style name="Theme.LiteScope.Teal" parent="Theme.LiteScope">
+        <item name="colorPrimary">#FF35D6C4</item>
+        <item name="colorOnPrimary">#FF06231F</item>
+        <item name="colorPrimaryContainer">#FF0E3B38</item>
+        <item name="colorOnPrimaryContainer">#FFA8F3E9</item>
+        <item name="colorSecondary">#FFFF7A9A</item>
+        <item name="colorOnSecondary">#FF06231F</item>
+        <item name="android:colorAccent">#FF35D6C4</item>
+        <item name="colorControlActivated">#FF35D6C4</item>
+    </style>
+    <style name="Theme.LiteScope.Amber" parent="Theme.LiteScope">
+        <item name="colorPrimary">#FFFFB020</item>
+        <item name="colorOnPrimary">#FF2A1A00</item>
+        <item name="colorPrimaryContainer">#FF4A3208</item>
+        <item name="colorOnPrimaryContainer">#FFFFE0A8</item>
+        <item name="colorSecondary">#FF7BD88F</item>
+        <item name="colorOnSecondary">#FF2A1A00</item>
+        <item name="android:colorAccent">#FFFFB020</item>
+        <item name="colorControlActivated">#FFFFB020</item>
+    </style>
+    <style name="Theme.LiteScope.Violet" parent="Theme.LiteScope">
+        <item name="colorPrimary">#FFA78BFA</item>
+        <item name="colorOnPrimary">#FF1D1233</item>
+        <item name="colorPrimaryContainer">#FF2E2154</item>
+        <item name="colorOnPrimaryContainer">#FFE3DAFF</item>
+        <item name="colorSecondary">#FF62D0FF</item>
+        <item name="colorOnSecondary">#FF1D1233</item>
+        <item name="android:colorAccent">#FFA78BFA</item>
+        <item name="colorControlActivated">#FFA78BFA</item>
+    </style>
+    <style name="Theme.LiteScope.Ice" parent="Theme.LiteScope">
+        <item name="colorPrimary">#FF62D0FF</item>
+        <item name="colorOnPrimary">#FF04202E</item>
+        <item name="colorPrimaryContainer">#FF0B2A3D</item>
+        <item name="colorOnPrimaryContainer">#FFC4ECFF</item>
+        <item name="colorSecondary">#FFFFB020</item>
+        <item name="colorOnSecondary">#FF04202E</item>
+        <item name="android:colorAccent">#FF62D0FF</item>
+        <item name="colorControlActivated">#FF62D0FF</item>
+    </style>
+    <style name="Theme.LiteScope.Mono" parent="Theme.LiteScope">
+        <item name="colorPrimary">#FFE8EDF2</item>
+        <item name="colorOnPrimary">#FF14181D</item>
+        <item name="colorPrimaryContainer">#FF2A3138</item>
+        <item name="colorOnPrimaryContainer">#FFFFFFFF</item>
+        <item name="colorSecondary">#FF8A97A5</item>
+        <item name="colorOnSecondary">#FF14181D</item>
+        <item name="android:colorAccent">#FFE8EDF2</item>
+        <item name="colorControlActivated">#FFE8EDF2</item>
+    </style>
+    <style name="Theme.LiteScope.Rose" parent="Theme.LiteScope">
+        <item name="colorPrimary">#FFFF7A9A</item>
+        <item name="colorOnPrimary">#FF2E0A15</item>
+        <item name="colorPrimaryContainer">#FF4C1424</item>
+        <item name="colorOnPrimaryContainer">#FFFFD3DD</item>
+        <item name="colorSecondary">#FF7BD8C0</item>
+        <item name="colorOnSecondary">#FF2E0A15</item>
+        <item name="android:colorAccent">#FFFF7A9A</item>
+        <item name="colorControlActivated">#FFFF7A9A</item>
+    </style>
+    <style name="Theme.LiteScope.Lime" parent="Theme.LiteScope">
+        <item name="colorPrimary">#FFA3E635</item>
+        <item name="colorOnPrimary">#FF1B2A05</item>
+        <item name="colorPrimaryContainer">#FF2E4610</item>
+        <item name="colorOnPrimaryContainer">#FFDDF7A8</item>
+        <item name="colorSecondary">#FF62D0FF</item>
+        <item name="colorOnSecondary">#FF1B2A05</item>
+        <item name="android:colorAccent">#FFA3E635</item>
+        <item name="colorControlActivated">#FFA3E635</item>
+    </style>
+    <style name="Theme.LiteScope.Ember" parent="Theme.LiteScope">
+        <item name="colorPrimary">#FFFF8A4C</item>
+        <item name="colorOnPrimary">#FF2E1405</item>
+        <item name="colorPrimaryContainer">#FF4C2410</item>
+        <item name="colorOnPrimaryContainer">#FFFFD8BF</item>
+        <item name="colorSecondary">#FFFFD166</item>
+        <item name="colorOnSecondary">#FF2E1405</item>
+        <item name="android:colorAccent">#FFFF8A4C</item>
+        <item name="colorControlActivated">#FFFF8A4C</item>
+    </style>
+</resources>
